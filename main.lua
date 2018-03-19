@@ -8,6 +8,13 @@
 --main.lua
 ----------------------------------------------------------------------------------------
 
+--create local variables for sound
+local littleIdea = audio.loadSound("Sounds/littleidea.mp3")
+local littleIdeaChannel
+
+--play the background music
+littleIdeaChannel = audio.play(littleIdea)
+
 --print my name to the console
 print ("Hello Sasha!")
 
